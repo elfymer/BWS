@@ -113,10 +113,29 @@ footer {
 }
 
 
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+    -webkit-box-shadow: inset 0 0 100px rgba(191, 144, 0, 0.4);
+    -moz-box-shadow: inset 0 0 100px rgba(191, 144, 0, 0.4);
+    box-shadow: inset 0 0 100px rgba(191, 144, 0, 0.4);
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+
 /* MAIN PAGE */
 
 #inner-index .videobtn .text {
     font-family: fontbodyHNLTComThCn;
+}
+
+#inner-index .logotitle-heading {
+    color: #bf9000 !important;
 }
 
 #inner-index h2 .logotitle-sub-heading {
@@ -311,8 +330,8 @@ footer {
 /*** toTop ***/
 .btn-primary {
     color: #FFF;
-    background-color: #FC7179;
-    border-color: #FC7870;
+    background-color: #bf9000;
+    border-color: #bf9000;
 }
 
 .btn-primary:hover,
@@ -321,6 +340,6 @@ footer {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #CC7179;
-    border-color: #DC7870;
+    background-color: #bf9000;
+    border-color: #bf9000;
 }
