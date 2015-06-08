@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-    color: #fd515d;
+    color: #bf9000;
 }
 
 /* Custom default button */
@@ -20,13 +20,20 @@ a:hover {
     border: 1px solid #fff;
 }
 
+.btn:active {
+    width: inherit;
+    background-image: none;
+    outline: 0px none;
+    box-shadow: none;
+}
+
 /*
  * Base structure
  */
 
 html,
 body {
-    background-color: #fff;
+    background-color: rgba(191, 144, 0, 0.09);
 }
 
 body {
@@ -47,7 +54,8 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6, .navbar, footer {
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+    /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);*/
 }
 
 h2, h3, h4, h5, h6, .navbar, footer {
@@ -90,6 +98,10 @@ footer {
 
 /* GLOBAL CALLS */
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 .divider-small {
     margin: 20px 0px;
 }
@@ -112,21 +124,6 @@ footer {
     src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
 }
 
-
-.site-wrapper {
-    display: table;
-    width: 100%;
-    height: 100%; /* For at least Firefox */
-    min-height: 100%;
-    -webkit-box-shadow: inset 0 0 100px rgba(191, 144, 0, 0.4);
-    -moz-box-shadow: inset 0 0 100px rgba(191, 144, 0, 0.4);
-    box-shadow: inset 0 0 100px rgba(191, 144, 0, 0.4);
-}
-
-.site-wrapper-inner {
-    display: table-cell;
-    vertical-align: top;
-}
 
 /* MAIN PAGE */
 
@@ -239,7 +236,7 @@ footer {
 }
 
 .page-title {
-    color: rgb(252, 113, 121);
+    color: #bf9000;
 }
 
 @media (min-width: 0px) and (max-width: 1024px) {
@@ -254,7 +251,7 @@ footer {
     font-family: fontHarlow;
     font-size: 2em;
     padding-left: 10px;
-    color: #FD515D;
+    color: #bf9000;
 }
 
 .navbar-default.bs-docs-nav {
@@ -263,7 +260,7 @@ footer {
 }
 
 .navbar-default.bs-docs-nav .navbar-brand {
-    color: #FD515D;
+    color: #bf9000;
 }
 
 .navbar-default.bs-docs-nav .navbar-nav > li > a {
@@ -273,7 +270,7 @@ footer {
 }
 
 .navbar-default.bs-docs-nav .navbar-nav > li > a:hover, .navbar-default.bs-docs-nav .navbar-nav > .active > a, .navbar-default.bs-docs-nav .navbar-nav > .active > a:hover {
-    color: #FD515D;
+    color: #bf9000;
     background-color: rgba(255, 255, 255, 0);
 }
 
@@ -284,7 +281,7 @@ footer {
 /* NAV BAR - MENU */
 
 .navbar-default.bs-docs-nav .navbar-toggle .icon-bar {
-    background-color: #FD515D;
+    background-color: #bf9000;
 }
 
 .navbar-default.bs-docs-nav .navbar-header .navbar-toggle {
