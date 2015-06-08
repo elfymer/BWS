@@ -1,0 +1,326 @@
+/* CUSTOMIZATION: MIXED BOOTSTRAP STYLES AND BENGGA STYLES */
+
+/* GLOBALS */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: #fd515d;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+    color: #333;
+    text-shadow: none;
+    /* Prevent inheritence from `body` */
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+    background-color: #fff;
+}
+
+body {
+    /*font-family: fontbodyHNLTComThCn;*/
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #727272;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+hr {
+    border-color: #c5c5c5 -moz-use-text-color -moz-use-text-color;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar, footer {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+h2, h3, h4, h5, h6, .navbar, footer {
+    font-family: fontbodyHNLTComThCn !important;
+    font-size: 24px;
+}
+
+h3, h4, h5, h6 {
+    color: #666;
+}
+
+h2 {
+    margin-top: 20px !important;
+    font-size: 2.438em;
+    font-weight: 700 !important;
+}
+
+h3 {
+    margin-top: 20px !important;
+    font-weight: 600 !important;
+}
+
+h4 {
+    margin-top: 20px !important;
+    font-size: 1.438em;
+    font-weight: 400 !important;
+}
+
+ul, li {
+    list-style: disc inside;
+}
+
+ol {
+    list-style: none;
+}
+
+footer {
+    font-size: 16px;
+}
+
+/* GLOBAL CALLS */
+
+.divider-small {
+    margin: 20px 0px;
+}
+
+.divider-medium {
+    margin: 40px 0px;
+}
+
+.divider-large {
+    margin: 80px 0px;
+}
+
+.no_margin {
+    margin: 0px !important;
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url("../fonts/glyphicons-halflings-regular.eot");
+    src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
+}
+
+
+/* MAIN PAGE */
+
+#inner-index .videobtn .text {
+    font-family: fontbodyHNLTComThCn;
+}
+
+#inner-index h2 .logotitle-sub-heading {
+    color: #333 !important;
+}
+
+#carousel-mobile {
+    display: none;
+}
+
+@media (max-width: 320px) {
+    .inner {
+        padding: 0;
+    }
+    .inner-1 {
+        position: relative;
+    }
+    .inner .main-1 {
+        min-width: 300px;
+    }
+    .container {
+        padding: 0;
+    }
+    .logotitle-sub-heading {
+        font-size: 2em !important;
+    }
+    .divider-small {
+        margin: 4px 0px;
+    }
+    #inner-index .inner-1 {
+        min-height: 0 !important;
+        padding: 0  !important;
+    }
+    #inner-index .main {
+        padding: 0  !important;
+    }
+    #inner-index .logotitle-heading {
+        display: none;
+        height: 0 !important;
+    }
+    #inner-index .marketing {
+        position: relative;
+    }
+    #footer-index {
+        display: none;
+        background-color: #ccc;
+        height: 0;
+    }
+}
+
+@media (min-width: 321px) {
+    #index-navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    #inner-index .main {
+        padding-left: 10px  !important;
+        padding-right: 10px  !important;
+    }
+}
+
+@media (min-width: 480px) {
+    #inner-index .inner-1 {
+        min-height: 0 !important;
+    }
+    #footer-index {
+        /*display: none;*/
+        background-color: #ccc;
+        height: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-viewport {
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+#footer-index .main-footer-links {
+    display: block;
+    margin-top: 20px;
+    text-align: center !important;
+}
+
+/* INNER PAGES */
+
+.tagline {
+    font-family: fontbodyHNLTStdCn;
+    font-size: 3em;
+    color: #666;
+}
+
+.bs-social {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.page-title {
+    color: rgb(252, 113, 121);
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+    .navbar {
+        font-size: 16px;
+    }
+}
+
+/* NAV BAR */
+
+.navbar-brand {
+    font-family: fontHarlow;
+    font-size: 2em;
+    padding-left: 10px;
+    color: #FD515D;
+}
+
+.navbar-default.bs-docs-nav {
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.navbar-default.bs-docs-nav .navbar-brand {
+    color: #FD515D;
+}
+
+.navbar-default.bs-docs-nav .navbar-nav > li > a {
+    color: rgb(102, 102, 102);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.navbar-default.bs-docs-nav .navbar-nav > li > a:hover, .navbar-default.bs-docs-nav .navbar-nav > .active > a, .navbar-default.bs-docs-nav .navbar-nav > .active > a:hover {
+    color: #FD515D;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.container > .navbar {
+    margin: 50px auto;
+}
+
+/* NAV BAR - MENU */
+
+.navbar-default.bs-docs-nav .navbar-toggle .icon-bar {
+    background-color: #FD515D;
+}
+
+.navbar-default.bs-docs-nav .navbar-header .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default.bs-docs-nav .navbar-header .navbar-toggle:hover, .navbar-default.bs-docs-nav .navbar-header .navbar-toggle:focus {
+    background-color: #f9f9f9;
+    border-color: #f9f9f9;
+}
+
+@media (min-width: 768px) {
+    /* NAV BAR */
+    .navbar-default.bs-docs-nav {
+        background-color: rgba(255, 99, 99, 0);
+    }
+    .navbar-brand {
+        font-size: 4em;
+    }
+    .logo-position-0.col-logo .navbar-brand.navbar-brand-link {
+        float: left;
+    }
+    .col-logo.logo-position-0, .col-nav.logo-position-1 {
+        padding-right: 0;
+        padding-left: 15px;
+        float: left;
+        text-align: left;
+    }
+    .col-logo.logo-position-1, .col-nav.logo-position-0 {
+        padding-right: 15px;
+        padding-left: 0;
+        float: right;
+        text-align: right;
+    }
+    .navbar-nav {
+        float: right;
+        margin: 0;
+    }
+}
+
+/* FLOATS */
+
+/*** toTop ***/
+.btn-primary {
+    color: #FFF;
+    background-color: #FC7179;
+    border-color: #FC7870;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #CC7179;
+    border-color: #DC7870;
+}

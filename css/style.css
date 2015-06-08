@@ -1,0 +1,446 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: #fd515d;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+    color: #333;
+    text-shadow: none;
+    /* Prevent inheritence from `body` */
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+    height: 100%;
+    background-color: #d9d9d9;
+}
+
+body {
+    font-family: fontbodyHNLTComThCn;
+    font-size: 24px;
+    color: #727272;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+/* Fonts */
+@font-face {
+    font-family: fontlogo;
+    src: url("../font/harlow/HARLOWSI.TTF"), url("../font/harlow/HARLOWSI.woff"), url("../font/harlow/HARLOWSI.otf"), url("../font/harlow/HARLOWSI.eot"); /* IE9 */
+}
+
+
+@font-face {
+    font-family: fontbodyHNLTComThCn;
+    src: url("../font/HNLTComThCn/HelveticaNeueLTCom-ThCn.ttf"), url("../font/HNLTComThCn/HelveticaNeueLTCom-ThCn.woff"), url("../font/HNLTComThCn/HelveticaNeueLTCom-ThCn.otf"), url("../font/HNLTComThCn/HelveticaNeueLTCom-ThCn.eot"); /* IE9 */
+}
+
+
+@font-face {
+    font-family: fontbodyHNLTStdCn;
+    src: url("../font/HNLTStdCn/HelveticaLTStd-Cond.otf");
+}
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+    -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.bengga-container {
+    max-width: 422px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Padding for spacing */
+/*. {
+  padding: 10px;
+}
+*/
+
+/*
+ * Header
+ */
+.masthead-brand {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+    display: inline-block;
+}
+
+.masthead-nav > li + li {
+    margin-left: 20px;
+}
+
+.masthead-nav > li > a {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; /* IE8 proofing */
+    color: rgba(255, 255, 255, 0.75);
+    border-bottom: 2px solid transparent;
+}
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom-color: #a9a9a9;
+    border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+    /*.masthead-brand {
+      float: left;
+    }
+    .masthead-nav {
+      float: right;
+    }*/
+}
+
+.bengga-heading {
+    font-family: fontlogo;
+    font-size: 8rem;
+    color: #fd515d;
+    padding: 30px;
+    margin: 0;
+}
+
+/* Download Links */
+
+.downloadLinksHolder {
+    padding: 16px;
+}
+
+.miniDownloadLinksHeading {
+    display: none;
+}
+
+.app-store {
+    background: url("../images/icons/dlappstore.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    background-size: auto;
+    width: 145px;
+    height: 44px;
+    margin: 16px 16px;
+}
+
+.google-play {
+    background: url("../images/icons/dlgoogleplay.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    background-size: auto;
+    width: 145px;
+    height: 44px;
+    margin: 16px 16px;
+}
+
+/*
+ * Bengga
+ */
+
+.bengga {
+    padding: 0 10px;
+}
+
+.bengga .btn-lg {
+    vertical-align: middle;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.VerticalCenter {
+    display: inline-table;
+    height: auto;
+    width: 100%;
+}
+
+.vcCell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+/*Responsive Content*/
+.rcWrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+}
+
+.ResponsiveContainer {
+    position: relative;
+    width: 100%;
+}
+
+.rcContent {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* bengga post*/
+.bengga-post {
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.lt-ie9 .bengga-post:before, .bengga-post::before {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.bengga-image {
+    background-size: 100% 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #ddd;
+}
+
+.bengga-video {
+    background-size: 100% 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: #ddd;
+}
+
+.rounded-corners {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+    color: #727272; /* IE8 proofing */
+    color: rgba(114, 114, 114, 0.8);
+    border-top: 1px solid transparent;
+    border-top-color: #fee;
+    font-size: 24px;
+  /*background-color: #3C0;
+	border: 1px solid #F30;*/
+    padding: 10px 10px;
+    margin: 0 0 20px;
+}
+
+/*** Media Queries ***/
+
+@media (max-width: 380px) {
+    .miniDownloadLinksHeading {
+        display: block;
+    }
+    .app-store, .google-play {
+        margin: 2px 2px;
+    }
+    .app-store {
+        background: url("../images/icons/dlappstorelogo.png") no-repeat scroll 0 0 transparent;
+        display: inline-block;
+        background-size: 100%;
+        width: 44px;
+        height: 44px;
+    }
+    .google-play {
+        background: url("../images/icons/dlgoogleplaylogo.png") no-repeat scroll 0 0 transparent;
+        display: inline-block;
+        background-size: 100%;
+        width: 44px;
+        height: 44px;
+    }
+}
+
+@media (max-width: 320px) {
+    /*.bengga-post{
+    	max-width:100%;
+    }*/
+    .downloadLinksHolder {
+        padding: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .app-store, .google-play {
+        margin: 6px 6px;
+    }
+    .mastfoot {
+        font-size: 18px;
+    }
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+    /* Pull out the header and footer */
+    .masthead {
+        position: fixed;
+        top: 0;
+    }
+    .mastfoot {
+        position: relative;
+        bottom: 0;
+    }
+    /* Start the vertical centering */
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Handle the widths */
+    .bengga-container {
+        max-width: 40%; /* Must be percentage or pixels for horizontal alignment */
+    }
+    .masthead,
+    .mastfoot,
+    .inner {
+        max-width: 100%;
+    }
+}
+
+/*
+ * For Devices
+ */
+
+/* ----------- Tablets ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 601px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1), only screen and (min-device-width: 800px) and (max-device-width: 1600px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Handle the widths */
+    .bengga-container {
+        max-width: 40%; /* Must be percentage or pixels for horizontal alignment */
+    }
+    .masthead,
+    .mastfoot,
+    .inner {
+        max-width: 100%;
+    }
+    .bengga-heading {
+        text-align: left;
+        font-size: 4rem;
+        color: #fd515d;
+        padding: 10px;
+        margin: 0;
+    }
+    .bengga-post {
+        max-width: 900px;
+    }
+    .downloadLinksHolder, .app-store, .google-play {
+        padding: 2px;
+    }
+}
+
+/* ----------- Tablets Devices w/ widths larger than 1600px ( still with issues, get back on this ) ----------- */
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .inner {
+        font-size: 1.5em;
+    }
+    .app-store, .google-play {
+        max-width: 50%;
+        padding: 10px;
+    }
+}
+
+/* ----------- iPhone, Nexus, Samsung, Sony ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3), only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    /* Handle the widths */
+    .bengga-container {
+        max-width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    }
+    .bengga {
+        padding: 0;
+    }
+    .bengga-heading {
+        text-align: left;
+        font-size: 3rem;
+        color: #fff;
+        padding: 20px;
+        margin: 0;
+        background-color: #fd515d;
+    }
+    .rounded-corners {
+        overflow: visible;
+    }
+    .downloadLinksHolder {
+        height: 40%;
+    }
+}
+
+/* ----------- Wearables ----------- */
+@media (max-device-width: 218px) and (max-device-height: 281px), (max-device-width: 42mm) and (min-device-width: 38mm) {
+    .bengga-heading {
+        text-align: left;
+        padding: 2%;
+        font-size: 0.5em;
+    }
+    .downloadLinksHolder {
+        display: none;
+    }
+    .mastfoot {
+        display: none;
+    }
+}

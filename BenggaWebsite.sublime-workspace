@@ -1,0 +1,460 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3634,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "terms.html",
+			"settings":
+			{
+				"buffer_size": 15129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles1.css",
+			"settings":
+			{
+				"buffer_size": 22965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 23505,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 288.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: SASS"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/bengga/website2015v1.20150512pm.2/BenggaWebsite",
+		"/C/xampp/htdocs/bengga/website2015v1.20150512pm.2/BenggaWebsite/css",
+		"/C/xampp/htdocs/bengga/website2015v1.20150512pm.2/BenggaWebsite/js"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/bengga/website2015v1.20150512pm.2/BenggaWebsiteDist/terms.html",
+		"/C/xampp/htdocs/bengga/website2015v1.20150512pm.2/BenggaWebsiteDist/css/styles.css",
+		"/C/xampp/htdocs/bengga/website2015v1.20150512pm.1/BenggaWebsite/index.html",
+		"/C/xampp/htdocs/bengga/website2015v1.20150512pm.1/BenggaWebsite/css/styles.css",
+		"/C/xampp/htdocs/bengga/miniurl2015v1/web/js/videojs-sublime-skin/src/videojs.sass",
+		"/C/xampp/htdocs/bengga/miniurl2015v1/web/js/videojs-sublime-skin/src/videojs-sublime-skin.sass",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/Package Control.sublime-package",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/sublime-text-haml-sass/README.md",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/bengga/miniurl2015v1/web/css/moonify/README.md",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/User/less2css.sublime-settings",
+		"/C/xampp/htdocs/bengga/miniurl2015v1/web/js/video-js/video-js.css",
+		"/C/xampp/htdocs/bengga/miniurl2015v1/web/js/video-js/video-js.min.css",
+		"/C/xampp/htdocs/bengga/miniurl2015v1/web/js/video-js/video-js.less",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/less2css/lesscompiler.py",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/User/LESS.sublime-settings",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/less.js-windows-v2.4.0/README.md",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/Theme - Refined/Refined-Dark.sublime-theme",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/LESS/LESS.sublime-settings",
+		"/C/Users/Lymer/AppData/Roaming/Sublime Text 3/Packages/LESS/.gitignore",
+		"/C/xampp/htdocs/bengga/miniurl2015v1/bengga_miniurl2015.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/bengga/miniurl2015v1/web/js/video-js/video-js.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/bengga/miniurl2015v1/web/js/video-js/video-js.min.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"C:\\xampp\\htdocs\\leportfolio\\imgs\\png"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"site-wrapper-inner",
+			"site-wrapper",
+			"post-border",
+			"site-wrapper-1",
+			" site-wrapper-2",
+			"inner-style",
+			" _text-5",
+			"_text",
+			"p",
+			"inner-style",
+			"main",
+			" site-wrapper-1",
+			".site-wrapper-inner-2",
+			" padding-top: 10px;\n        padding-right: 10px;\n        padding-bottom: 10px;\n        padding-left: 10px;",
+			" .watch-video-btn ",
+			"site-wrapper-inner",
+			"site-wrapper-inner-2",
+			"site-wrapper-inner-2 ",
+			" site-wrapper-inner-2",
+			" site-wrapper-inner-2 ",
+			"post-border ",
+			"post-border",
+			"site-wrapper-inner-1",
+			"site-wrapper-inner",
+			"site-wrapper-inner-1",
+			" site-wrapper-inner-1",
+			".videobtn .text",
+			".videobtn .text ",
+			" site-wrapper-",
+			" site-wrapper-2",
+			"site-wrapper",
+			"site-wrapper-1",
+			"site-wrapper",
+			"site-wrapper-1",
+			"clearfix",
+			"site-wrapper",
+			"bengga-post ",
+			"bengga-post",
+			"shadow",
+			"bengga-post",
+			"rounded-corners",
+			"0%",
+			"0px",
+			"post-right-panel",
+			"vcCell",
+			"Bengga",
+			"ite-wrapper-",
+			"site-wrapper",
+			"bengga-heading",
+			"navHead",
+			"cover-heading",
+			"ipad-portrait",
+			"bengg",
+			"bengga_video_post",
+			"vjs-default-skin"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" padding: 10px;",
+			"",
+			"site-wrapper",
+			"0",
+			"vjs-bengga-skin"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3634,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								392,
+								348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "terms.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 44.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/styles1.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22729,
+								22729
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15402.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14120,
+								14120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 9942.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/SASS/SASS (Windows).sublime-build",
+	"project": "BenggaWebsite.sublime-project",
+	"replace":
+	{
+		"height": 146.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 155.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
