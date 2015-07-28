@@ -39,7 +39,7 @@ body {
 body {
     /*font-family: fontbodyHNLTComThCn;*/
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #727272;
 }
 
@@ -142,6 +142,13 @@ footer {
 #carousel-mobile {
     display: none;
 }
+
+.videobtn {
+   
+    border: 1px solid rgba(191, 144, 0, 0.5);
+   
+}
+
 
 @media (max-width: 320px) {
     .inner {
@@ -292,6 +299,16 @@ footer {
     background-color: #f9f9f9;
     border-color: #f9f9f9;
 }
+
+
+@media (max-width: 767px) {
+
+    .navbar-inner {
+        max-height: none;
+    }
+
+}
+
 
 @media (min-width: 768px) {
     /* NAV BAR */
