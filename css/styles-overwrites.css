@@ -39,7 +39,7 @@ body {
 body {
     /*font-family: fontbodyHNLTComThCn;*/
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     color: #727272;
 }
 
@@ -50,7 +50,7 @@ img {
 }
 
 hr {
-    border-color: #c5c5c5 -moz-use-text-color -moz-use-text-color;
+    border-color: rgba(197, 197, 197, 0.2); -moz-use-text-color -moz-use-text-color;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar, footer {
@@ -60,11 +60,15 @@ h1, h2, h3, h4, h5, h6, .navbar, footer {
 
 h2, h3, h4, h5, h6, .navbar, footer {
     font-family: fontbodyHNLTComThCn !important;
-    font-size: 24px;
+    //font-size: 24px;
 }
 
 h3, h4, h5, h6 {
     color: #666;
+}
+
+h1{
+    font-size: 3em;
 }
 
 h2 {
@@ -132,6 +136,8 @@ footer {
 }
 
 #inner-index .logotitle-heading {
+
+    font-size: 9em;
     color: #bf9000 !important;
 }
 
@@ -191,12 +197,17 @@ footer {
 }
 
 @media (min-width: 321px) {
+
     #index-navbar {
         display: none;
     }
 }
 
+
 @media (max-width: 480px) {
+    #inner-index .logotitle-heading {
+        font-size: 6em !important;
+    }
     #inner-index .main {
         padding-left: 10px  !important;
         padding-right: 10px  !important;
@@ -215,6 +226,7 @@ footer {
 }
 
 @media (min-width: 768px) {
+
     .carousel-viewport {
         height: 300px;
         margin-top: 20px;
@@ -303,6 +315,9 @@ footer {
 
 @media (max-width: 767px) {
 
+    #inner-index .logotitle-heading {
+        font-size: 6em;
+    }
     .navbar-inner {
         max-height: none;
     }
