@@ -33,7 +33,7 @@ a:hover {
 
 html,
 body {
-    background-color: rgba(191, 144, 0, 0.09);
+    background-color: rgba(191, 144, 0, 0.06);
 }
 
 body {
@@ -60,33 +60,47 @@ h1, h2, h3, h4, h5, h6, .navbar, footer {
 
 h2, h3, h4, h5, h6, .navbar, footer {
     font-family: fontbodyHNLTComThCn !important;
-    //font-size: 24px;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-top: 20px !important;
 }
 
 h3, h4, h5, h6 {
     color: #666;
 }
 
+
+
+
 h1{
     font-size: 3em;
 }
 
 h2 {
-    margin-top: 20px !important;
+    
     font-size: 2.438em;
     font-weight: 700 !important;
 }
 
 h3 {
-    margin-top: 20px !important;
     font-weight: 600 !important;
+    font-size: 1.5em;
+    //color: #444;
 }
 
 h4 {
-    margin-top: 20px !important;
-    font-size: 1.438em;
+    //font-size: 1.438em;
     font-weight: 400 !important;
 }
+
+/*h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }*/
+
 
 ul, li {
     list-style: disc inside;
@@ -96,8 +110,12 @@ ol {
     list-style: none;
 }
 
+li {
+    padding-left: 0.8em;
+}
+
 footer {
-    font-size: 16px;
+    //font-size: 1.1em;
 }
 
 /* GLOBAL CALLS */
@@ -129,7 +147,7 @@ footer {
 }
 
 
-/* MAIN PAGE */
+/* MAIN PAGES */
 
 #inner-index .videobtn .text {
     font-family: fontbodyHNLTComThCn;
@@ -155,6 +173,14 @@ footer {
    
 }
 
+/*.inner-1{
+    height: 90%;
+}*/
+
+.logotitle-heading{
+    
+    overflow:visible;
+}
 
 @media (max-width: 320px) {
     .inner {
@@ -236,8 +262,25 @@ footer {
 
 #footer-index .main-footer-links {
     display: block;
-    margin-top: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     text-align: center !important;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.2); //#8C8C8C;
+    width: 100%;
+    max-width: 66%;
+    min-width: 100%;
+}
+
+.footer__row {
+    display: block;
+}
+
+
+
+.footer__normal, .footer__link {
+    display: inline-block;
+    padding-right: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 
 /* INNER PAGES */
@@ -294,8 +337,9 @@ footer {
 }
 
 .container > .navbar {
-    margin: 50px auto;
+    margin: 1.5rem auto;
 }
+
 
 /* NAV BAR - MENU */
 
@@ -353,6 +397,14 @@ footer {
         margin: 0;
     }
 }
+
+
+/* BODY */
+
+article {
+    margin-top: 3rem;
+}
+
 
 /* FLOATS */
 
