@@ -33,14 +33,50 @@ a:hover {
 
 html,
 body {
-    background-color: rgba(191, 144, 0, 0.06);
+    background-color: #fff; //rgba(191, 144, 0, 0.06);
 }
 
 body {
-    /*font-family: fontbodyHNLTComThCn;*/
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1em;
     color: #727272;
+    font-size: 16px;
+    /*font-family: fontbodyHNLTComThCn;*/
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url("../fonts/glyphicons-halflings-regular.eot");
+    src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
+}
+
+@font-face {
+    font-family: fontHarlow; /* Change this to  fontHarlow once done with the project */
+    src: url("../fonts/harlow/HARLOWSI.TTF"), url("../fonts/harlow/HARLOWSI.woff"), url("../fonts/harlow/HARLOWSI.otf"), url("../fonts/harlow/HARLOWSI.eot"); /* IE9 */
+}
+
+
+@font-face {
+    font-family: fontbodyHNLTComThCn; /* Change this to  fontbodyHNLTComThCn once done with the project */
+    src: url("../fonts/HNLTComThCn/HelveticaNeueLTCom-ThCn.ttf"), url("../fonts/HNLTComThCn/HelveticaNeueLTCom-ThCn.woff"), url("../fonts/HNLTComThCn/HelveticaNeueLTCom-ThCn.otf"), url("../fonts/HNLTComThCn/HelveticaNeueLTCom-ThCn.eot"); /* IE9 */
+}
+
+
+@font-face {
+    font-family: fontbodyHNLTStdCn; /* Change this to  fontbodyHNLTStdCn once done with the project */
+    src: url("../fonts/HNLTStdCn/HelveticaLTStd-Cond.otf");
+}
+
+
+article {
+    margin-top: 3rem;
+    text-align: justify;
+}
+
+.article-content li{
+    margin: 0.5em 0px 0px 0.5em;
 }
 
 img {
@@ -55,6 +91,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6, .navbar, footer {
     text-shadow: none;
+    text-align:left;
     /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);*/
 }
 
@@ -71,14 +108,11 @@ h3, h4, h5, h6 {
 }
 
 
-
-
 h1{
     font-size: 3em;
 }
 
 h2 {
-    
     font-size: 2.438em;
     font-weight: 700 !important;
 }
@@ -102,21 +136,15 @@ h5 { font-size: .83em; }
 h6 { font-size: .75em; }*/
 
 
-ul, li {
-    list-style: disc inside;
-}
-
-ol {
-    list-style: none;
-}
-
-li {
-    padding-left: 0.8em;
-}
 
 footer {
     //font-size: 1.1em;
 }
+
+
+
+
+
 
 /* GLOBAL CALLS */
 
@@ -140,11 +168,6 @@ footer {
     margin: 0px !important;
 }
 
-@font-face {
-    font-family: 'Glyphicons Halflings';
-    src: url("../fonts/glyphicons-halflings-regular.eot");
-    src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
-}
 
 
 /* MAIN PAGES */
@@ -156,7 +179,7 @@ footer {
 #inner-index .logotitle-heading {
 
     font-size: 9em;
-    color: #bf9000 !important;
+    color: #836407 !important;
 }
 
 #inner-index h2 .logotitle-sub-heading {
@@ -173,10 +196,6 @@ footer {
    
 }
 
-/*.inner-1{
-    height: 90%;
-}*/
-
 .logotitle-heading{
     
     overflow:visible;
@@ -192,9 +211,7 @@ footer {
     .inner .main-1 {
         min-width: 300px;
     }
-    .container {
-        padding: 0;
-    }
+
     .logotitle-sub-heading {
         font-size: 2em !important;
     }
@@ -207,6 +224,8 @@ footer {
     }
     #inner-index .main {
         padding: 0  !important;
+        // background-color: #00f;
+
     }
     #inner-index .logotitle-heading {
         display: none;
@@ -214,11 +233,29 @@ footer {
     }
     #inner-index .marketing {
         position: relative;
+        background-color: aqua;
+        height: 100%;
+    }
+    .container {
+        padding: 0;
+    }
+
+    .main-content .carousel-viewport{
+        position: relative;
     }
     #footer-index {
         display: none;
-        background-color: #ccc;
-        height: 0;
+        //background-color: #ccc;
+        height: 100%;
+    }
+    
+    /*#footer-index .main-footer-links{
+        display: none !important;
+        height: 0px;
+    }*/
+
+    #inner-index .main-1{
+        max-width: 320px;
     }
 }
 
@@ -227,20 +264,33 @@ footer {
     #index-navbar {
         display: none;
     }
+     
 }
 
 
 @media (max-width: 480px) {
+    
     #inner-index .logotitle-heading {
         font-size: 6em !important;
     }
     #inner-index .main {
         padding-left: 10px  !important;
         padding-right: 10px  !important;
+       
     }
+     .inner-1{
+        height: 100%;
+        min-height: 640px;
+        position: relative;
+        //background-color: #0f0;
+    }
+
+
 }
 
 @media (min-width: 480px) {
+
+
     #inner-index .inner-1 {
         min-height: 0 !important;
     }
@@ -249,14 +299,22 @@ footer {
         background-color: #ccc;
         height: 0;
     }
+
+    .inner-1{
+        height: 800px;
+        min-height: 640px;
+        //background-color: #f00; 
+    }
 }
 
-@media (min-width: 768px) {
 
-    .carousel-viewport {
-        height: 300px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+
+@media (max-width: 640px){
+    .inner-1{
+        height: 100%;
+        min-height: 640px;
+        position: relative;
+        //background-color: #0f0;
     }
 }
 
@@ -273,6 +331,7 @@ footer {
 
 .footer__row {
     display: block;
+    padding: 0;
 }
 
 
@@ -303,7 +362,7 @@ footer {
 
 @media (min-width: 0px) and (max-width: 1024px) {
     .navbar {
-        font-size: 16px;
+        font-size: 1em;
     }
 }
 
@@ -322,22 +381,24 @@ footer {
 }
 
 .navbar-default.bs-docs-nav .navbar-brand {
-    color: #bf9000;
+    color: rgb(131, 100, 7); //#bf9000;
 }
 
 .navbar-default.bs-docs-nav .navbar-nav > li > a {
-    color: rgb(102, 102, 102);
+    color: rgb(131, 100, 7); //rgb(102, 102, 102);
     font-size: 1.2em;
     font-weight: 600;
 }
 
-.navbar-default.bs-docs-nav .navbar-nav > li > a:hover, .navbar-default.bs-docs-nav .navbar-nav > .active > a, .navbar-default.bs-docs-nav .navbar-nav > .active > a:hover {
+.navbar-default.bs-docs-nav .navbar-nav > li > a:hover, 
+.navbar-default.bs-docs-nav .navbar-nav > .active > a, 
+.navbar-default.bs-docs-nav .navbar-nav > .active > a:hover {
     color: #bf9000;
     background-color: rgba(255, 255, 255, 0);
 }
 
 .container > .navbar {
-    margin: 1.5rem auto;
+    margin: 2.5rem auto;
 }
 
 
@@ -351,9 +412,14 @@ footer {
     border-color: #fff;
 }
 
-.navbar-default.bs-docs-nav .navbar-header .navbar-toggle:hover, .navbar-default.bs-docs-nav .navbar-header .navbar-toggle:focus {
+.navbar-default.bs-docs-nav .navbar-header .navbar-toggle:hover, 
+.navbar-default.bs-docs-nav .navbar-header .navbar-toggle:focus {
     background-color: #f9f9f9;
     border-color: #f9f9f9;
+}
+
+.navbar li {
+    padding-left: 0.5rem;
 }
 
 
@@ -364,6 +430,14 @@ footer {
     }
     .navbar-inner {
         max-height: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .inner .main-1{
+        min-width: 100%;
     }
 
 }
@@ -396,14 +470,26 @@ footer {
         float: right;
         margin: 0;
     }
+
+
+    .carousel-viewport {
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait){
+
+    .article-content {
+        display: relative;
+        margin-top: 14rem;
+        //background-color: #f00;
+    }
 }
 
 
-/* BODY */
-
-article {
-    margin-top: 3rem;
-}
 
 
 /* FLOATS */
